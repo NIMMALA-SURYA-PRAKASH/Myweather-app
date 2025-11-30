@@ -1,4 +1,4 @@
-const apiKey = "";
+const apiKey = "592c191cce19101d2ae052db25aa88c3";
 
 document.getElementById("getWeatherBtn").addEventListener("click", function() {
     const cityName = document.getElementById("cityInput").value.trim();
@@ -29,4 +29,5 @@ document.getElementById("getWeatherBtn").addEventListener("click", function() {
             document.getElementById("weatherResult").innerHTML = `<p style="color:red;">${err.message}</p>`;
         });
 });
+
 
